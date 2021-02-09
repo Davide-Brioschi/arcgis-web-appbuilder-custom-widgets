@@ -1,0 +1,41 @@
+
+.jimu-widget-mydata-setting input{
+  margin-left: 10px;
+}
+
+.jimu-widget-mydata-setting{
+  height: 100%;
+  overflow: hidden;
+  font-size: 14px;
+}
+.jimu-widget-mydata-setting .section.common-property{
+  overflow: hidden;
+}
+.jimu-widget-mydata-setting .url-section{
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+}
+.jimu-widget-mydata-setting .url-section .label{
+  left: 0;
+  top:5px;
+  height:36px;
+  width: 110px;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.jimu-widget-mydata-setting .url-section .jimu-btn{
+  height: 30px;
+  line-height: 30px;
+}
+.jimu-widget-mydata-setting .service-browser{
+  width: 850px;
+}
+
+/*main stack section*/
+.jimu-widget-mydata-setting .stack-section{
+
+}

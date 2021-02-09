@@ -1,0 +1,7 @@
+{
+	"widgetSwitch":"Filter",
+	"filters":[],
+	"hideLayersAfterWidgetClosed": true,
+	"hideNonQueriedLayers": true,
+    "queries": []
+}

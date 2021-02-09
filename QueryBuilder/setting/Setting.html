@@ -1,0 +1,20 @@
+<div>
+	<div class="widget-setting-radio-part">
+		<div class="widget-setting-radio"  data-dojo-attach-point="filterRadioBoxDom">
+			<input data-dojo-attach-point="filterRadio" data-dojo-type="dijit/form/RadioButton" name="widgetSwitch" id="filter-radio" type="radio" class="jimu-radio-btn"/>
+			<label data-dojo-attach-point="filterLabel" for="filter-radio">${nls.switchFilter}<label>
+		</div>
+		<div class="widget-setting-radio">
+			<input data-dojo-attach-point="queryRadio" data-dojo-type="dijit/form/RadioButton" name="widgetSwitch" id="query-radio" type="radio" class="jimu-radio-btn"/>
+			<label data-dojo-attach-point="queryLabel" for="query-radio">${nls.switchQuery}</label>
+		</div>
+		<div class="widget-setting-radio">
+			<input data-dojo-attach-point="gpRadio" data-dojo-type="dijit/form/RadioButton" name="widgetSwitch" id="gp-radio" type="radio" class="jimu-radio-btn"/>
+			<label data-dojo-attach-point="gpLabel" for="gp-radio">${nls.switchGP}</label>
+		</div>
+	</div>
+	<div class="check-box-container hor-center">
+		<div data-dojo-type="jimu/dijit/CheckBox" class="normal-font-size" data-dojo-attach-point="cbxHideNonQueriedLayers" data-dojo-props='checked:true'></div>
+	</div>
+	<div class="widget-setting-container" data-dojo-attach-point="widgetSettingContainer"></div>
+</div>

@@ -1,0 +1,36 @@
+@import url("filter-setting.css");
+@import url("query-setting.css");
+@import url("gp-setting.css");
+
+.jimu-widget-querybuilder-setting{
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+}
+
+.jimu-widget-querybuilder-setting .not-visible{
+  display: none;
+}
+
+.jimu-widget-querybuilder-setting .widget-setting-radio-part{
+  margin-right: 20px;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+.jimu-widget-querybuilder-setting .widget-setting-radio-part .widget-setting-radio{
+  display: inline-block;
+  margin:10px 20px 10px 0;
+}
+
+.jimu-widget-querybuilder-setting > .check-box-container {
+  height: 19px;
+  margin-bottom: 15px; 
+  margin-top: 5px; 
+}
+
+.jimu-widget-querybuilder-setting .widget-setting-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

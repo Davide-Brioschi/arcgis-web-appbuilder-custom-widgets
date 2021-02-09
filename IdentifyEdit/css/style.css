@@ -1,0 +1,339 @@
+@import url("RelatedRecordsEditor.css");
+@import url("FilterEditor.css");
+
+/* custom css for panel off */
+.identify-edit-widget-panel{
+  display: none !important;
+  /*z-index: -1 !important;*/
+}
+/*-----*/
+
+.jimu-widget-identify-edit {
+  position: relative;
+}
+
+
+.jimu-widget-identify-edit .edit-related-graphic-part{
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.jimu-widget-identify-edit .edit-related-graphic-part.disable{
+  display: none;
+}
+
+.jimu-widget-identify-edit .edit-related-graphic-part .title{
+  float: left;
+  max-width: 220px;
+  height: 40px;
+  line-height: 14px;
+  padding-top: 5px;
+}
+.jimu-rtl .jimu-widget-identify-edit .edit-related-graphic-part .title{
+  float: right;
+}
+
+.jimu-widget-identify-edit .edit-related-graphic-part .btn{
+  float: right;
+  min-width: 90px; 
+  max-width: 110px;
+  cursor: pointer;
+  background-color: #009966;
+  color: #ffffff;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.jimu-rtl .jimu-widget-identify-edit .edit-related-graphic-part .btn{
+  float: left;
+}
+
+/* .jimu-widget-identify-edit .jimu-loading-shelter .loading-container {
+  width: 48px;
+} */
+
+
+.jimu-widget-identify-edit .templatePicker {
+  position: absolute;
+  width: 100%;
+  bottom: 53px;
+}
+
+/***********about templatePicker**************/
+/*
+.jimu-widget-identify-edit .templatePicker {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 18px;
+  bottom: 53px;
+  height: auto; /just for BoxTheme/
+}
+
+.jimu-widget-identify-edit .grid {
+  height: 100% !important;
+}
+
+.jimu-widget-identify-edit .dojoxGridMasterHeader {
+  height: 0 !important;
+}
+
+.jimu-widget-identify-edit .dojoxGridContent {
+  width: 100% !important;
+}
+
+.jimu-widget-identify-edit .dojoxGridContent div[role=presentation] {
+  right: 0;
+}
+
+.jimu-widget-identify-edit .dojoxGridRow {
+  width: 100%;
+}
+
+.jimu-widget-identify-edit .dojoxGridRowTable {
+  width: 100%;
+}
+*/
+
+.jimu-widget-identify-edit .dojoxGridRow {
+  border: 0;
+}
+
+.jimu-widget-identify-edit .dojoxGridScrollbox {
+  overflow-x: hidden;
+}
+
+.jimu-widget-identify-edit  .templatePicker .grid .dojoxGridCell {
+  border: 0px solid #FFFFFF;
+}
+
+/***************about editor toolbar****************/
+.jimu-widget-identify-edit .esriEditor {
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+}
+
+.jimu-widget-identify-edit .esriDrawingToolbar {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  min-height: 50px;
+}
+
+
+/**************about edit popup***************/
+
+/*
+.jimu-widget-identify-edit-infoWindow .esriPopupWrapper{
+  font-family: "Avenir Light";
+}
+
+ .jimu-widget-identify-edit-infoWindow .contentPane {
+  background-color: #ffffff;
+}
+*/
+.jimu-widget-identify-edit-infoWindow.esriPopup .esriPopupWrapper{
+  width: 400px;
+  font-family: "Avenir Light";
+}
+
+.jimu-widget-identify-edit-infoWindow.esriPopup .esriPopupWrapper .sizer{
+  width: 100% !important;
+}
+
+.jimu-widget-identify-edit-infoWindow.esriPopup .titlePane{
+  height: 36px;
+  line-height: 36px;
+  background-color:rgba(51,51,51,0.9);
+}
+
+.jimu-widget-identify-edit-infoWindow.esriPopup .titlePane .spinner{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.jimu-widget-identify-edit-infoWindow.esriPopup .titlePane .title{
+  margin-left: 10px;
+  font-size: 16px;
+}
+.jimu-widget-identify-edit-infoWindow.esriPopup .titleButton.close{
+   top: 10px;
+   right: 10px;
+}
+.jimu-widget-identify-edit-infoWindow.esriPopup .titleButton.maximize,
+.jimu-widget-identify-edit-infoWindow.esriPopup .titleButton.restore{
+  top: 13px;
+  right: 30px;
+}
+
+.jimu-widget-identify-edit-infoWindow.esriPopup .titleButton.next{
+  top: 10px;
+  right: 50px;
+}
+
+.jimu-widget-identify-edit-infoWindow.esriPopup .titleButton.prev{
+  top: 10px;
+  right: 70px;
+}
+
+/**************end edit popup***************/
+
+/*********about attributeInspector**********/
+
+.jimu-widget-identify-edit-infoWindow .esriAttributeInspector {
+  width: 100%;
+}
+
+.jimu-widget-identify-edit-infoWindow  .esriAttributeInspector .atiAttributes table {
+    width: 100%;
+}
+
+.jimu-widget-identify-edit-infoWindow .esriAttributeInspector .atiLabel {
+  /*height: 36px;*/
+}
+
+.jimu-widget-identify-edit-infoWindow .esriAttributeInspector .atiEditorTrackingInfo{
+  display: none !important;
+}
+/*
+.jimu-widget-identify-edit-infoWindow .esriAttributeInspector .atiField{
+  margin: 3px auto;
+}
+*/
+
+.jimu-widget-identify-edit-infoWindow .esriAttributeInspector .dijitTextBox {
+  width: 100%;
+  border-color: #dddddd;
+  margin: 3px auto;
+  /*height: 24px;*/
+}
+
+.jimu-widget-identify-edit-infoWindow .esriAttributeInspector .dijitInputField {
+  /*
+  line-height: 20px !important;
+  padding: 0 0 0 !important;
+  */
+}
+
+.jimu-widget-identify-edit-infoWindow .esriAttributeInspector .dijitTextBox .dijitInputInner {
+  /*
+  height: 22px;
+  line-height: 22px !important;
+  */
+}
+
+.jimu-widget-identify-edit-infoWindow .esriAttributeInspector .dijitTextBoxFocused {
+  border-color: #afafaf !important;
+  box-shadow: 0 0 0 #ffffff !important;
+}
+
+.jimu-widget-identify-edit-infoWindow .esriAttributeInspector .dijitTextBoxHover{
+  background-color: #ffffff;
+  background-image: none;
+  border-color: #afafaf !important;
+}
+/*just for launch pad theme*/
+/*
+.jimu-widget-identify-edit-infoWindow .esriAttributeInspector .dijitArrowButton.dijitDownArrowButton.dijitArrowButtonContainer {
+  position: static !important;
+  height: 30px !important;
+}
+*/
+
+/*rich textbox*/
+.jimu-widget-identify-edit-infoWindow .esriAttributeInspector .atiRichTextField{ 
+
+}
+
+.jimu-widget-identify-edit-infoWindow .esriAttributeInspector div.dijitEditorIFrameContainer {
+  height: 78px;
+}
+
+/*textArea*/
+.jimu-widget-identify-edit-infoWindow .esriAttributeInspector .dijitTextBox.dijitTextArea {
+  height: 32px;
+}
+
+/*new button in attributeInspector*/
+.jimu-widget-identify-edit-infoWindow .esriAttributeInspector .atiButtons {
+  padding-top: 10px;
+  height: 35px;
+}
+
+.jimu-widget-identify-edit-infoWindow .esriAttributeInspector .atiButton {
+  margin: 0 0 0 10px;
+  float: none;
+  width: auto;
+  float: right;
+}
+.jimu-rtl .jimu-widget-identify-edit-infoWindow .esriAttributeInspector .atiButton {
+  margin: 0 10px 0 0px;
+  float: left;
+}
+
+.jimu-widget-identify-edit-infoWindow .esriAttributeInspector .dijitButtonNode{
+  border: 1px solid #979797;
+  /*padding: 2px 4px 4px 4px;*/
+  color: #000000;
+  border-radius: 0px;
+  /*box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);*/
+  background-color: #ffffff;
+  background-image: none;
+}
+
+.jimu-widget-identify-edit-infoWindow .esriAttributeInspector .dijitButtonText{
+  height: 22px;
+  min-width: 60px;
+  line-height: 22px;
+}
+
+.jimu-widget-identify-edit-infoWindow .esriAttributeInspector .dijitButtonNode:hover{
+  border: 1px solid #555555;
+  font-family: "Avenir Heavy";
+}
+
+.jimu-widget-identify-edit-infoWindow .esriAttributeInspector .atiButton.disable .dijitButtonNode{
+  border: 1px solid #ccc;
+  color: #ccc;
+  font-family: "inherit";
+}
+
+/*
+.dijitCalendarContainer table{
+  width: 100%;
+}
+*/
+
+
+/*********end attributeInspector**********/
+
+
+/***************confirm dialog*****************/
+.jimu-widget-identify-edit-infoWindow .jimu-popup{
+}
+.jimu-widget-identify-edit-infoWindow .jimu-popup .title{
+  display: none;
+}
+
+.jimu-widget-identify-edit-infoWindow .jimu-popup .content{
+  line-height: 16px;
+}
+
+.jimu-widget-identify-edit-infoWindow .jimu-popup .jimu-btn{
+  border: 1px solid #979797;
+  color: #000000;
+  border-radius: 0px;
+  background-color: #ffffff;
+  background-image: none;
+  line-height: 27px;
+}
+.jimu-widget-identify-edit-infoWindow .jimu-popup .jimu-btn:hover{
+  border: 1px solid #555555;
+  font-family: "Avenir Heavy";
+}
+
+/***************confirm dialog end*****************/
